@@ -11,6 +11,7 @@
     width: 8em;
     margin-top: -2.5em;
     z-index: 3;
+    scroll-behavior: smooth;
 }
 
 .chatbox__support {
