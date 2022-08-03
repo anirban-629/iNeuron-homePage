@@ -21,9 +21,10 @@ Version      : 1.0
 -------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap");
+
 :root {
   --theme-heading-font: 'Gilroy', sans-serif;
-  --theme-secondary-font:'Jost', sans-serif;
+  --theme-secondary-font: 'Jost', sans-serif;
   --theme-primary-color: #F14D5D;
   --theme-secondary-color: #015ABD;
   --theme-heading-color: #14133b;
@@ -32,7 +33,8 @@ Version      : 1.0
   --theme-border-color: #ddd;
 }
 
-body, html {
+body,
+html {
   width: 100%;
   max-width: 100%;
 }
@@ -169,15 +171,18 @@ a:focus {
   text-decoration: none;
 }
 
-a:focus, a:visited {
+a:focus,
+a:visited {
   outline: none;
 }
 
-button:focus, input:focus {
+button:focus,
+input:focus {
   outline: none;
 }
 
-ul, ol {
+ul,
+ol {
   margin-bottom: 0px;
   list-style-type: none;
   padding-left: 0px;
@@ -767,7 +772,7 @@ Main Menu header
   margin: 0;
 }
 
-.header-navbar .primary-menu li:hover > .submenu {
+.header-navbar .primary-menu li:hover>.submenu {
   visibility: visible;
   top: 100%;
   opacity: 1;
@@ -778,12 +783,12 @@ Main Menu header
   top: 20%;
 }
 
-.header-navbar .primary-menu li .submenu li:hover > .submenu {
+.header-navbar .primary-menu li .submenu li:hover>.submenu {
   top: 0;
 }
 
 .header-navbar .primary-menu li .submenu li .menu-trigger {
-  color: #222;
+  color: #ffffff;
 }
 
 .header-navbar .nav-toggler {
@@ -959,11 +964,11 @@ Menu center bottom
   justify-content: center;
 }
 
-.menu-center.style-1 .primary-menu li:hover > .submenu a:before {
+.menu-center.style-1 .primary-menu li:hover>.submenu a:before {
   display: none;
 }
 
-.menu-center.style-1 .primary-menu li:hover > .submenu a:hover {
+.menu-center.style-1 .primary-menu li:hover>.submenu a:hover {
   color: #000;
 }
 
@@ -1064,7 +1069,8 @@ Menu top
   color: var(--theme-primary-color);
 }
 
-.header-info-style1 .header-cart a, .header-info-style1 .header-search a {
+.header-info-style1 .header-cart a,
+.header-info-style1 .header-search a {
   color: #444;
   width: 40px;
   height: 40px;
@@ -1076,7 +1082,8 @@ Menu top
   font-size: 13px;
 }
 
-.header-info-style1 .header-cart a:hover, .header-info-style1 .header-search a:hover {
+.header-info-style1 .header-cart a:hover,
+.header-info-style1 .header-search a:hover {
   background: var(--theme-primary-color);
   color: #fff;
   border-color: var(--theme-primary-color);
@@ -1113,7 +1120,8 @@ Menu top
   border-radius: 4px;
 }
 
-.header-search-bar .form-control:focus, .header-search-bar .form-control:hover {
+.header-search-bar .form-control:focus,
+.header-search-bar .form-control:hover {
   border-color: #ddd;
   background: #fff;
 }
@@ -1187,11 +1195,15 @@ Header Style 3
   padding: 0px 0px;
 }
 
-.header-style-3 .header-cart a, .header-style-3 .header-search a, .header-style-3 .header-socials a {
+.header-style-3 .header-cart a,
+.header-style-3 .header-search a,
+.header-style-3 .header-socials a {
   color: #647589;
 }
 
-.header-style-3 .header-cart a:hover, .header-style-3 .header-search a:hover, .header-style-3 .header-socials a:hover {
+.header-style-3 .header-cart a:hover,
+.header-style-3 .header-search a:hover,
+.header-style-3 .header-socials a:hover {
   color: var(--theme-primary-color);
 }
 
@@ -1368,7 +1380,7 @@ Header Style 3
   padding-bottom: 10px;
 }
 
-.header-category-menu li.has-submenu:hover > .submenu {
+.header-category-menu li.has-submenu:hover>.submenu {
   visibility: visible;
   top: 100%;
   opacity: 1;
@@ -1982,7 +1994,7 @@ Testiomonial
   box-shadow: none;
 }
 
-.testimonial-2 .owl-nav.disabled + .owl-dots {
+.testimonial-2 .owl-nav.disabled+.owl-dots {
   margin-top: 40px;
 }
 
@@ -2020,7 +2032,7 @@ Team Style
 .team-item .team-img img {
   border-radius: 5px;
   -webkit-transform: translateY(-15px);
-          transform: translateY(-15px);
+  transform: translateY(-15px);
   transition: all .4s ease;
 }
 
@@ -2110,7 +2122,7 @@ Team style 2
 .team-item-2 .team-img img {
   border-radius: 5px;
   -webkit-transform: translateY(0px);
-          transform: translateY(0px);
+  transform: translateY(0px);
 }
 
 .about-features .feature-item {
@@ -2311,7 +2323,7 @@ Counter 4
   margin-bottom: 0px;
 }
 
-.testimonial .owl-theme .owl-nav.disabled + .owl-dots {
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
   margin-top: 40px;
 }
 
@@ -2503,7 +2515,8 @@ Pricing
   text-transform: capitalize;
 }
 
-.pricing-tab .nav-link.active, .pricing-tab .show > .nav-link {
+.pricing-tab .nav-link.active,
+.pricing-tab .show>.nav-link {
   color: #273444;
   font-weight: 500;
   box-shadow: 0 2px 20px 0 rgba(97, 97, 97, 0.07);
@@ -2548,7 +2561,7 @@ Portfolio
 
 .portfolio-single .portfolio-img:hover img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .portfolio-single .portfolio-img:after {
@@ -2571,7 +2584,7 @@ Portfolio
   z-index: 1;
   opacity: 0;
   -webkit-transform: translateY(0px);
-          transform: translateY(0px);
+  transform: translateY(0px);
   transition: all .5s ease;
 }
 
@@ -2616,7 +2629,7 @@ Portfolio
   z-index: 1;
   opacity: 0;
   -webkit-transform: translateX(0px);
-          transform: translateX(0px);
+  transform: translateX(0px);
   transition: all .5s ease;
 }
 
@@ -2636,13 +2649,13 @@ Portfolio
 
 .portfolio-single .portfolio-img:hover .overlay-content {
   -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
+  transform: translateY(-50px);
   opacity: 1;
 }
 
 .portfolio-single .portfolio-img:hover .overlay-icon {
   -webkit-transform: translateX(-30px);
-          transform: translateX(-30px);
+  transform: translateX(-30px);
   opacity: 1;
 }
 
@@ -2701,7 +2714,7 @@ portflio filter
 
 .portfolio-gallery .portfolio-single .portfolio-img:hover img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .portfolio-gallery .portfolio-single .overlay-icon a {
@@ -2817,7 +2830,7 @@ portflio filter
   opacity: 1;
   visibility: visible;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .tooltip-style .course-thumb {
@@ -2857,7 +2870,7 @@ portflio filter
   opacity: 0;
   visibility: hidden;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
 
 .course-hover-content .price {
@@ -3531,7 +3544,8 @@ Content tab
   bottom: -2px;
 }
 
-.theme-course-content .nav-tabs .nav-link.active, .theme-course-content .nav-tabs .nav-item.show .nav-link {
+.theme-course-content .nav-tabs .nav-link.active,
+.theme-course-content .nav-tabs .nav-item.show .nav-link {
   color: #222;
   border: 0px;
   background: #F8F9F8;
@@ -3807,11 +3821,13 @@ Course Single Banner
   margin-bottom: 20px;
 }
 
-.single-course-details ul li, .single-course-details ol li {
+.single-course-details ul li,
+.single-course-details ol li {
   margin-bottom: 7px;
 }
 
-.single-course-details ul li i, .single-course-details ol li i {
+.single-course-details ul li i,
+.single-course-details ol li i {
   margin-right: 10px;
 }
 
@@ -3938,7 +3954,7 @@ Course header layout 3
   font-size: 20px;
   line-height: 94px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   border-radius: 50%;
   -webkit-border-radius: -50%;
   -moz-border-radius: -50%;
@@ -4143,7 +4159,8 @@ Content tab
   bottom: -2px;
 }
 
-.tutori-course-content .nav-tabs .nav-link.active, .tutori-course-content .nav-tabs .nav-item.show .nav-link {
+.tutori-course-content .nav-tabs .nav-link.active,
+.tutori-course-content .nav-tabs .nav-item.show .nav-link {
   color: #222;
   border: 0px;
   border-bottom: 2px solid var(--theme-primary-color);
@@ -4418,17 +4435,20 @@ Course Review
   overflow: hidden;
 }
 
-.course-reviews-list li .user-name, .course-reviews-list-shortcode li .user-name {
+.course-reviews-list li .user-name,
+.course-reviews-list-shortcode li .user-name {
   text-transform: capitalize;
   margin: 0px !important;
   font-size: 20px;
 }
 
-.course-reviews-list li .review-title, .course-reviews-list-shortcode li .review-title {
+.course-reviews-list li .review-title,
+.course-reviews-list-shortcode li .review-title {
   font-style: normal !important;
 }
 
-.course-reviews-list li, .course-reviews-list-shortcode li {
+.course-reviews-list li,
+.course-reviews-list-shortcode li {
   margin-bottom: 20px;
 }
 
@@ -4866,7 +4886,8 @@ Single Blog POSt
   border-radius: 5px;
 }
 
-.single-post-content ul, .single-post-content ol {
+.single-post-content ul,
+.single-post-content ol {
   margin-bottom: 30px;
 }
 
