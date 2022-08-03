@@ -31,6 +31,14 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
     <link rel="shortcut icon" href="img/favicon_io (1)/favicon.ico" type="image/x-icon">
+
+    <!-- chat -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./cassets/css/chat.css">
+    <link rel="stylesheet" href="cstyle.css">
+    <link rel="stylesheet" href="./cassets/css/typing.css">
+
 </head>
 
 <body id="top-header">
@@ -917,7 +925,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6" style="visibility: hidden;">
-                                    <div class="author me-3" >
+                                    <div class="author me-3">
                                         <img src="img/Teams/sbc.jpg">
                                         <a href="#">Sunny Bhaveen Chandrai</a>
                                     </div>
@@ -1868,15 +1876,66 @@
                 </div>
             </div>
         </div>
-        <div class="fixed-btm-top">
+        <!-- <div class="fixed-btm-top">
             <a href="#top-header" class="js-scroll-trigger scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        </div>
+        </div> -->
 
     </section>
     <!-- content- -->
 
+    <!-- content- -->
+    <div class=" bod-chat" id="menu">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="./cimages/image.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div>
+                        <div class="messages__item messages__item--visitor">
+                            You can talk with me for support?
+                        </div>
+                        <div class="messages__item messages__item--operator">
+                            Sure!
+                        </div>
+                        <div class="messages__item messages__item--visitor">
+                            Do you need any help?
+                        </div>
+                        <div class="messages__item messages__item--operator">
+                            Hi... I'm a virtual assitant here to help you!
+                        </div>
+                        <div class="messages__item messages__item--typing">
+                            <span class="messages__dot"></span>
+                            <span class="messages__dot"></span>
+                            <span class="messages__dot"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatbox__footer">
+                    <img src="./cimages/icons/emojis.svg" alt="">
+                    <img src="./cimages/icons/microphone.svg" alt="">
+                    <input type="text" placeholder="Write a message...">
+                    <p class="chatbox__send--footer mt-3">Send</p>
+                    <img src="./cimages/icons/attachment.svg" alt="">
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button>button</button>
+            </div>
+        </div>
+    </div>
+    <!-- content- -->
 
 </body>
+
+<script src="./cassets/js/Chat.js"></script>
+<script src="./capp.js"></script>
+<!-- chat  -->
 
 <!-- Main jQuery -->
 <script src="assets/vendors/jquery/jquery.js"></script>
